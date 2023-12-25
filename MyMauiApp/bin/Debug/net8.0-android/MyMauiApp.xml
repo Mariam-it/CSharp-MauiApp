@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyMauiApp</name>
+    </assembly>
+    <members>
+        <member name="F:MyMauiApp.ViewModels.ProductListViewModel.navigateToAddCommand">
+            <summary>The backing field for <see cref="P:MyMauiApp.ViewModels.ProductListViewModel.NavigateToAddCommand"/>.</summary>
+        </member>
+        <member name="P:MyMauiApp.ViewModels.ProductListViewModel.NavigateToAddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MyMauiApp.ViewModels.ProductListViewModel.NavigateToAdd"/>.</summary>
+        </member>
+    </members>
+</doc>

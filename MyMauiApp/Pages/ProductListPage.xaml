@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyMauiApp.Pages.ProductListPage"
+             Title="ProductListPage">
+    <VerticalStackLayout>
+        <Label Text="Product List" HorizontalOptions="Center"/>
+        <Button x:Name="Btn_Add" Text="Add" Clicked="Btn_Add_Clicked"  Margin="200, 10"/>
+        <Grid Margin="200, 10">
+            <StackLayout>
+                <Button Text="Get user" />
+            </StackLayout>
+        </Grid>
+        <Grid Margin="200, 10">
+            <StackLayout>
+                <Button Text="update user" />
+            </StackLayout>
+        </Grid>
+        <Grid Margin="200, 10">
+            <StackLayout>
+                <Button Text="delete users" />
+            </StackLayout>
+        </Grid>
+        <Grid Margin="200, 10">
+            <StackLayout>
+                <Button Text="Get all users" />
+            </StackLayout>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

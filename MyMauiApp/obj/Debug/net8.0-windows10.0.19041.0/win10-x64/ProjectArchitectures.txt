@@ -1,0 +1,1 @@
+C:\Users\moust\OneDrive\Desktop\WINN23\C-sharp-test\MauiTest\MyMauiApp\MyMauiApp.csproj;x64
